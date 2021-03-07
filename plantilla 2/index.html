@@ -25,7 +25,9 @@
         -moz-user-select: none;
         user-select: none;
       }
-
+      .color-tools-top-bg{
+        background: #00373A;
+      }
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
@@ -36,59 +38,146 @@
   </head>
   <body>
     
-  <div class="container">
-    <header class="blog-header py-3 " style="position:sticky;">
-      <div class="container">
-      <div class="row flex-nowrap justify-content-between align-items-center">
-        <div class="text-center col-2">
-          <a class="link-secondary" href="#">Subscribe</a>
-        </div>
-        <div class="col-8 text-center">
-          <h4>Universidad de El Salvador</h4>        
-          <h3>Facultad Multidisciplinaria Paracentral</h3>
-        </div>
-        <div class="text-center col-2">       
-          <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
+<div class="container-fluid color-tools-top-bg">
+  <header class="blog-header">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="text-center col-2">
+        <a class="link-secondary" href="#">Inscribete</a>
+      </div>
+      <div class="col-8 text-center">
+        <h4 class="text-white">Universidad de El Salvador</h4>        
+        <h3 class="text-white">Facultad Multidisciplinaria Paracentral</h3>
+      </div>
+      <div class="text-center col-2">       
+        <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-dark color-tools-top-bg" aria-label="Fourth navbar example">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Expand at md</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item d-inline">
+              <a class="nav-link btn" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item d-inline">
+              <a class="nav-link"  href="#">Home</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link rounded border" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled rounded" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle rounded border" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item has-submenu">
+              <a href="#">
+              <i class="dripicons-jewel"></i>Components <div class="arrow-down"></div></a>
+              <ul class="submenu">
+                  <li class="has-submenu">
+                      <a href="calender.html">Calendar</a>
+                  </li>
+                  <li class="has-submenu">
+                      <a href="#">Charts <div class="arrow-down"></div></a>
+                      <ul class="submenu">
+                          <li>
+                              <a href="chart-flot.html">Flot Charts</a>
+                          </li>
+                          <li>
+                              <a href="chart-chartist.html">Chartist Charts</a>
+                          </li>
+                          <li>
+                              <a href="chart-chartjs.html">Chartjs Charts</a>
+                          </li>
+                          <li>
+                              <a href="chart-knob.html">Jquery Knob</a>
+                          </li>
+                          <li>
+                              <a href="chart-sparkline.html">Sparkline Charts</a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="has-submenu">
+                      <a href="#">Forms <div class="arrow-down"></div></a>
+                      <ul class="submenu">
+                          <li>
+                              <a href="form-elements.html">Form Elements</a>
+                          </li>
+                          <li>
+                              <a href="form-advanced.html">Form Advanced</a>
+                          </li>
+                          <li>
+                              <a href="form-validation.html">Form Validation</a>
+                          </li>
+                          <li>
+                              <a href="form-wizard.html">Form Wizard</a>
+                          </li>
+                          <li>
+                              <a href="form-summernote.html">Summernote</a>
+                          </li>
+                          <li>
+                              <a href="form-upload.html">Form Upload</a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="has-submenu">
+                      <a href="#">Tables <div class="arrow-down"></div></a>
+                      <ul class="submenu">
+                          <li>
+                              <a href="tables-basic.html">Basic Tables</a>
+                          </li>
+                          <li>
+                              <a href="tables-datatable.html">Data Tables</a>
+                          </li>
+                          <li>
+                              <a href="tables-responsive.html">Responsive Tables</a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="has-submenu">
+                      <a href="#">Icons <div class="arrow-down"></div></a>
+                      <ul class="submenu">
+                          <li>
+                              <a href="icons-materialdesign.html">Material Design</a>
+                          </li>
+                          <li>
+                              <a href="icons-simpleline.html">Simple Line</a>
+                          </li>
+                          <li>
+                              <a href="icons-dripicons.html">Dripicons</a>
+                          </li> 
+                      </ul>
+                  </li>
+                  <li class="has-submenu">
+                      <a href="#">Maps <div class="arrow-down"></div></a>
+                      <ul class="submenu">
+                          <li>
+                              <a href="maps-google.html">Google Maps</a>
+                          </li>
+                          <li>
+                              <a href="maps-vector.html">Vector Maps</a>
+                          </li>
+                      </ul>
+                  </li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </div>
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Expand at md</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-    
-          <div class="collapse navbar-collapse" id="navbarsExample04">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-              <li class="nav-item d-inline p-1">
-                <a class="nav-link active rounded border" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item d-inline p-1 ">
-                <a class="nav-link active rounded border" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link rounded border" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled rounded" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle rounded border" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-                <ul class="dropdown-menu" aria-labelledby="dropdown04">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-            </ul>
-            <form>
-              <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-            </form>
-          </div>
-        </div>
-      </nav>
-    </header>  
-  
+    </nav>
+  </header>  
 </div>
 
 <main class="container">
